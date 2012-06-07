@@ -1,3 +1,9 @@
+maemo-scrobbler (3.0-1) harmattan; urgency=low
+
+  * Optify
+
+ -- Fernando Muñoz <fernando@null-life.com>  Tue, 29 Nov 2011 17:43:57 +0200
+
 maemo-scrobbler (2.0-2) harmattan; urgency=low
 
   * Improve error handling

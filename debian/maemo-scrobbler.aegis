@@ -3,6 +3,6 @@
 		<credential name="UID::user" />
 		<credential name="GRP::metadata-users" />
 
-		<for path="/usr/bin/scrobbler" />
+		<for path="/opt/scrobbler/bin/scrobbler" />
 	</request>
 </aegis>

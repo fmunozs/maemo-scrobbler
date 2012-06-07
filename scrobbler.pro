@@ -7,7 +7,7 @@ PKGCONFIG += qmafw qmafw-shared glib-2.0 gio-2.0 libsoup-2.4 conic qmafw-tracker
 
 TARGET = scrobbler
 
-target.path = /usr/bin
+target.path = /opt/scrobbler/bin
 INSTALLS += target
 
 QMAKE_CFLAGS += -std=c99 -Wno-unused-parameter
