@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE provider>
+<provider version="1.0" id="lastfm">
+    <name>Last.fm</name>
+    <description>Scrobble to Last.fm</description>
+    <short-description>User account</short-description>
+    <icon>icon-m-service-lastfm</icon>
+    <sign-up-link>https://www.last.fm/join</sign-up-link>
+    <account-setup>
+        <authsession>
+          <validate method="password" mechanism="password"/>
+          <method name="password">
+              <mechanism name="password"/>
+          </method>
+        </authsession>
+    </account-setup>
+</provider>
+
