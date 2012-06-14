@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE provider>
+<provider version="1.0" id="fmc">
+    <name>Libre.fm User</name>
+    <description>Scrobble to Libre.fm</description>
+    <short-description>User account</short-description>
+    <icon>icon-m-service-librefm</icon>
+    <sign-up-link>http://libre.fm/register.php</sign-up-link>
+    <account-setup>
+        <authsession>
+          <validate method="password" mechanism="password"/>
+          <method name="password">
+              <mechanism name="password"/>
+          </method>
+        </authsession>
+    </account-setup>
+</provider>
+
